@@ -2,9 +2,9 @@ import React from 'react'
 
 export const Navbar = ({ setCategory }) => {
     return (
-        <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary px-5 shadow-lg " data-bs-theme="dark">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#"><span className='badge bg-warning fst-italic text-dark fs-3 '>TodayScoop</span></a>
+                <a className="navbar-brand" href="#"><span className='badge bg-warning fst-italic text-dark fs-3 '>Today'Scoop</span></a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
