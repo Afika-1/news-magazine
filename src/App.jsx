@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Navbar } from "./components/Navbar";
 import { NewsBoard } from "./components/NewsBoard";
+import { Footer } from "./components/Footer";
 
  const App = () => {
   const [category, setCategory]= useState("general")
@@ -10,6 +11,7 @@ import { NewsBoard } from "./components/NewsBoard";
     <div>
      <Navbar setCategory={setCategory}/>
      <NewsBoard category={category}/>
+     <Footer/>
     </div>
   )
 }
