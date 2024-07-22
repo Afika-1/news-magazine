@@ -6,7 +6,7 @@ export const NewsBoard = ({category}) => {
     useEffect(()=>{ 
         let url= `https://newsapi.org/v2/top-headlines?country=us&category=${category}&apiKey=${import.meta.env.VITE_API_KEY}`;
         fetch(url).then(response=> response.json()).then(data=>setArticles(data.articles));
-    }, [])
+    }, [category])
   return (
     <div className='pb-5' style={{backgroundColor:" rgb(211, 211, 111)"}}>
         <h1 className='text-center pt-5 '>Latest <span className='badge bg-danger'>News</span></h1>   
