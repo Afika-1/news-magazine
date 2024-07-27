@@ -1,5 +1,10 @@
 # React + Vite
+web link -  https://today-scoop-magazine.web.app
+Cannot be viewed from. The API is only for dev purposes
 ![homeImage](./src/assets/news.png)
+
+User can also view categories using the navbar for more relevant  headlines like Entertainment, Science, Technology etc..
+![homeImage](./src/assets/Screenshot%20(17).png)
 
 
 
