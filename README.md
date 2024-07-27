@@ -1,4 +1,5 @@
-# React + Vite
+# Today' Scoop News Magazine
+
 web link -  https://today-scoop-magazine.web.app
 Cannot be viewed from. The API is only for dev purposes
 ![homeImage](./src/assets/news.png)
